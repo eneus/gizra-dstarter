@@ -1,3 +1,7 @@
+/* @font-face { 
+  font-family: Inter; 
+  src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf'); 
+}  */
 body.path-user {
   #block-server-theme-content {
     @apply container-wide;
@@ -6,5 +10,94 @@ body.path-user {
   #edit-submit {
     @apply bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded;
   }
+
+  .user-profile {
+    @apply bg-white rounded-lg shadow overflow-hidden;
+    .user-info{
+      @apply md:flex p-8 md:p-0;
+      .user-picture {
+        @apply md:flex bg-white overflow-hidden mx-auto;
+        img {
+          @apply w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto;
+        }
+      }
+      .user-data {
+        @apply pt-6 md:p-8 text-center md:text-left w-full space-y-2;
+      }
+      .field.user-name a {
+        @apply font-medium text-sm;
+      }
+      .field--name-field-slogan {
+        @apply font-medium text-sm text-gray-500;
+      }
+      .roles.item-list {
+        @apply flex md:justify-start justify-center;
+        .item {
+          @apply text-sm font-medium text-xs bg-emerald-100 rounded-full py-1 px-2 text-emerald-800 w-fit;
+        }
+      }
+    }
+    .user-action {
+      @apply flex justify-center w-full text-center divide-x border-t;
+      .email {
+        @apply flex justify-center w-full p-4 text-sm;
+        svg {
+          @apply w-5 h-5 mx-2 py-1;
+        }
+      }
+      .call {
+        @apply flex justify-center w-full p-4 text-sm;
+        svg {
+          @apply w-5 h-5 mx-2 py-1;
+        }
+      }
+    }
+  }
 }
 
+.views-element-container .view-members{
+  @apply container-wide;
+  .view-content {
+    @apply grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 mb-6 font-inter;
+    .user-profile {
+      @apply bg-white rounded-lg shadow;
+      .user-picture {
+        @apply overflow-hidden mx-auto p-8;
+        img {
+          @apply w-32 h-32 rounded-full mx-auto;
+        }
+      }
+      .user-data {
+        @apply pt-0 pb-8 text-center w-full space-y-2 px-8;
+      }
+      .field.user-name a {
+        @apply font-medium text-sm;
+      }
+      .field--name-field-slogan {
+        @apply font-medium text-sm text-gray-500;
+      }
+      .roles.item-list {
+        @apply flex justify-center;
+        .item {
+          @apply text-sm font-medium text-xs bg-emerald-100 rounded-full py-1 px-2 text-emerald-800 w-fit;
+        }
+      }
+      .user-action {
+        @apply flex justify-center w-full text-center divide-x border-t;
+        .email {
+          @apply flex justify-center w-full p-4 text-sm;
+          svg {
+            @apply w-5 h-5 mx-2 py-1;
+          }
+        }
+        .call {
+          @apply flex justify-center w-full p-4 text-sm;
+          svg {
+            @apply w-5 h-5 mx-2 py-1;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -2,6 +2,16 @@
 
 # Drupal 9 Starter
 
+### Just Test Task from Gizra
+
+1. Added new module `web/modules/custom/pluggable_entity_view_builder_group`
+2. Added test `web/modules/custom/server_general/tests/src/ExistingSite/ServerGeneralNodeGroupTest.php`
+3. Added template for user `web/themes/custom/server_theme/templates/user`
+3. Updated PostCSS file `/themes/custom/server_theme/src/pcss/drupal.pcss`
+3. Added new font 'Inter' related to [Figma Test Task](https://www.figma.com/file/r1kH05IrINkSRPTDGi665K/Home-assignment---TailwindCSS)
+
+-------
+
 Starter repo for Drupal 9 development. This starter is an opinionated approach,
 with the following concepts and tools:
 

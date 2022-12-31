@@ -1,0 +1,20 @@
+uuid: 7882abb3-d7be-4f78-8990-67babf2e5dce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_slogan
+  module:
+    - user
+id: user.user.field_slogan
+field_name: field_slogan
+entity_type: user
+bundle: user
+label: Slogan
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

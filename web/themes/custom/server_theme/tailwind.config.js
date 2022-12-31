@@ -10,6 +10,7 @@ module.exports = {
     fontFamily: {
       'headers': ["Roboto", 'sans-serif'],
       'body': ["Open Sans", 'sans-serif'],
+      'inter': ["Inter", 'sans-serif'],
     }
   },
   content: [

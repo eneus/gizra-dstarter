@@ -20,6 +20,7 @@ module:
   crop: 0
   datetime: 0
   dblog: 0
+  displayrole: 0
   dynamic_page_cache: 0
   editor: 0
   elasticsearch_connector: 0
@@ -49,6 +50,8 @@ module:
   menu_ui: 0
   mysql: 0
   node: 0
+  og: 0
+  og_ui: 0
   options: 0
   page_cache: 0
   pantheon_advanced_page_cache: 0
@@ -56,8 +59,10 @@ module:
   path_alias: 0
   permissions_filter: 0
   pluggable_entity_view_builder: 0
+  pluggable_entity_view_builder_group: 0
   quickedit: 0
   rdf: 0
+  realname: 0
   redirect: 0
   redis: 0
   responsive_image: 0
